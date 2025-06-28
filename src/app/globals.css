@@ -345,40 +345,47 @@ p {
   position: relative;
 }
 
-/* Values Section */
-.values {
+/* Mission & Vision Section */
+.mission-vision {
   padding: 80px 0;
   background-color: #000000;
 }
 
-.values-grid {
+.mission-vision-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 48px;
-  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 60px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.value-card {
+.mission-block,
+.vision-block {
   text-align: center;
-  padding: 40px 24px;
+  padding: 48px 32px;
+  position: relative;
+}
+
+.block-label {
+  display: inline-block;
+  padding: 8px 16px;
   background-color: #1a1a1a;
-  border-radius: 12px;
+  color: #a0a0a0;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
   border: 1px solid #333333;
 }
 
-.value-icon {
-  font-size: 2rem;
-  margin-bottom: 24px;
-}
-
-.value-card h3 {
-  margin-bottom: 16px;
+.mission-block h3,
+.vision-block h3 {
   color: #ffffff;
-}
-
-.value-card p {
-  color: #a0a0a0;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.3;
+  font-weight: 600;
+  margin: 0;
 }
 
 /* Features Section */
@@ -817,13 +824,18 @@ p {
     padding: 24px 16px;
   }
 
-  .values {
+  .mission-vision {
     padding: 60px 0;
   }
 
-  .values-grid {
+  .mission-vision-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 40px;
+  }
+
+  .mission-block,
+  .vision-block {
+    padding: 40px 24px;
   }
 
   .services {

@@ -44,26 +44,21 @@ export default function Home() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="values">
+      <section className="mission-vision">
         <div className="container">
-          <div className="values-grid">
-            <div className="value-card">
-              <div className="value-icon">🎯</div>
-              <h3>Our Mission</h3>
-              <p>
-                Empower businesses by delivering innovative and strategic web
-                design solutions that enhance user experience, drive engagement,
-                and achieve measurable results.
-              </p>
+          <div className="mission-vision-grid">
+            <div className="mission-block">
+              <div className="block-label">Mission</div>
+              <h3>
+                Empowering digital transformation through innovative design
+              </h3>
             </div>
-            <div className="value-card">
-              <div className="value-icon">🏆</div>
-              <h3>Our Vision</h3>
-              <p>
-                A leading web design agency recognized for our creativity,
-                integrity, and commitment to helping businesses thrive in the
-                digital age.
-              </p>
+            <div className="vision-block">
+              <div className="block-label">Vision</div>
+              <h3>
+                Creating meaningful connections between brands and their
+                audiences
+              </h3>
             </div>
           </div>
         </div>
