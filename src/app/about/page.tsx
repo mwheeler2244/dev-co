@@ -27,7 +27,9 @@ export default function About() {
           <div className="hero-content">
             <div className="hero-badge">Founded in 2024</div>
             <h1 className="hero-title">
-              <span className="hero-title-main">We're Webify Nebraska</span>
+              <span className="hero-title-main">
+                We&apos;re Webify Nebraska
+              </span>
               <span className="hero-title-accent">
                 Your Digital Growth Partners
               </span>
@@ -163,8 +165,8 @@ export default function About() {
               <div className="feature-icon">🎯</div>
               <h4>Results Focused</h4>
               <p>
-                Pretty websites are nice, but we're obsessed with websites that
-                drive real business results and growth.
+                Pretty websites are nice, but we&apos;re obsessed with websites
+                that drive real business results and growth.
               </p>
             </div>
 
@@ -173,7 +175,7 @@ export default function About() {
               <h4>Lightning Fast</h4>
               <p>
                 Speed matters. We build websites that load in under 3 seconds
-                because your customers won't wait longer.
+                because your customers won&apos;t wait longer.
               </p>
             </div>
 
@@ -181,7 +183,7 @@ export default function About() {
               <div className="feature-icon">🛡️</div>
               <h4>Security First</h4>
               <p>
-                Your website and your customers' data are protected with
+                Your website and your customers&apos; data are protected with
                 enterprise-grade security measures.
               </p>
             </div>
@@ -288,8 +290,8 @@ export default function About() {
               </div>
               <h2>What Makes Webify Nebraska Different?</h2>
               <p>
-                We're not just another web design agency. We're your local
-                partners who understand Nebraska businesses and deliver
+                We&apos;re not just another web design agency. We&apos;re your
+                local partners who understand Nebraska businesses and deliver
                 solutions that work.
               </p>
 
@@ -372,9 +374,10 @@ export default function About() {
 
           <div className="testimonial-content">
             <blockquote>
-              "Webify Nebraska transformed our online presence completely. Our
-              website traffic increased by 300% and we're getting more qualified
-              leads than ever before. They truly understand local businesses."
+              &quot;Webify Nebraska transformed our online presence completely.
+              Our website traffic increased by 300% and we&apos;re getting more
+              qualified leads than ever before. They truly understand local
+              businesses.&quot;
             </blockquote>
             <div
               style={{
