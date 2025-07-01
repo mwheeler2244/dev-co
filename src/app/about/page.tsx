@@ -388,7 +388,7 @@ export default function About() {
             >
               <strong style={{ color: "#e5e5e5" }}>Sarah Johnson</strong>
               <br />
-              <span>Owner, Johnson's Hardware - Omaha, NE</span>
+              <span>Owner, Johnson&apos;s Hardware - Omaha, NE</span>
             </div>
           </div>
         </div>
